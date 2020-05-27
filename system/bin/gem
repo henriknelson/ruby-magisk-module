@@ -1,0 +1,14 @@
+#!/data/ruby/bin/bash
+prefix=""
+if [[ ${EUID} == 0 ]]; then
+	prefix="";
+else
+	prefix="su -p -c ";
+fi;
+#rw="mount -o rw,remount /system/bin";
+#ro="mount -o ro,remount /system/bin";
+#rw="";
+#ro="";
+cmd="/data/ruby/bin/ruby -I/data/ruby/lib/ruby/2.7.0 -I/data/ruby/lib/ruby/gems/2.7.0/gems -I/data/ruby/lib/ruby/2.7.0/aarch64-linux-android /data/ruby/bin/gem $@";
+#echo "$prefix $cmd"
+$prefix $cmd

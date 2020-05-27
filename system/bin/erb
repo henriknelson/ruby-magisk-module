@@ -1,0 +1,2 @@
+#!/data/ruby/bin/bash
+exec env /data/ruby/bin/ruby -I/data/ruby/lib/ruby/2.7.0 -I/data/ruby/lib/ruby/gems/2.7.0/gems -I/data/ruby/lib/ruby/2.7.0/aarch64-linux-android /data/ruby/bin/erb "$@"

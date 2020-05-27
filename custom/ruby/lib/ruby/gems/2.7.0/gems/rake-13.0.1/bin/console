@@ -1,0 +1,7 @@
+#!/data/ruby/bin/ruby
+
+require "bundler/setup"
+require "rake"
+
+require "irb"
+IRB.start

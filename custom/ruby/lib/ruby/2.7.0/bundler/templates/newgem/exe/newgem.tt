@@ -1,0 +1,3 @@
+#!/data/ruby/bin/ruby
+
+require "<%= config[:namespaced_path] %>"

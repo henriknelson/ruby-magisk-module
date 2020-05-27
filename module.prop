@@ -1,0 +1,6 @@
+id=ruby-nelshh
+name=Ruby for Android
+version=2.7.1
+versionCode=13
+author=nelshh
+description=A static build of the latest Ruby binaries for Android (aarch64)
